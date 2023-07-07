@@ -1,0 +1,6 @@
+<h3>fs moduleの検証</h3>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    path: <input type="text" formControlName="path"><br>
+    <button type="submit">Submit</button>
+</form>
+<p>{{ dirs }}</p>
